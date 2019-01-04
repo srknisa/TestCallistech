@@ -1,0 +1,137 @@
+2019/01/03 13:26:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\TestCallistech\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testcallistech/index.php?r=gii
+---
+2019/01/03 13:45:15 [error] [php] Undefined variable: model (C:\xampp\htdocs\TestCallistech\protected\views\site\index.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TestCallistech\index.php(13): CWebApplication->run()
+REQUEST_URI=/testcallistech/index.php?r=site/index
+in C:\xampp\htdocs\TestCallistech\protected\views\site\index.php (38)
+in C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\TestCallistech\index.php (13)
+2019/01/03 13:45:27 [error] [php] Undefined variable: model (C:\xampp\htdocs\TestCallistech\protected\views\site\index.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TestCallistech\index.php(13): CWebApplication->run()
+REQUEST_URI=/testcallistech/
+in C:\xampp\htdocs\TestCallistech\protected\views\site\index.php (38)
+in C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\TestCallistech\index.php (13)
+2019/01/03 13:48:56 [error] [php] Undefined variable: model (C:\xampp\htdocs\TestCallistech\protected\views\site\index.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TestCallistech\index.php(13): CWebApplication->run()
+REQUEST_URI=/testcallistech/
+in C:\xampp\htdocs\TestCallistech\protected\views\site\index.php (38)
+in C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\TestCallistech\index.php (13)
+2019/01/03 14:01:21 [error] [php] Undefined variable: model (C:\xampp\htdocs\TestCallistech\protected\views\site\index.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TestCallistech\index.php(13): CWebApplication->run()
+REQUEST_URI=/testcallistech/index.php?r=site/index
+in C:\xampp\htdocs\TestCallistech\protected\views\site\index.php (38)
+in C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\TestCallistech\index.php (13)
+2019/01/04 01:54:36 [error] [php] Undefined variable: model (C:\xampp\htdocs\TestCallistech\protected\views\site\index.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\TestCallistech\index.php(13): CWebApplication->run()
+REQUEST_URI=/testcallistech/index.php?r=site/index
+in C:\xampp\htdocs\TestCallistech\protected\views\site\index.php (38)
+in C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\TestCallistech\index.php (13)
+2019/01/04 04:25:18 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "customer".' in C:\xampp\htdocs\yii\yii-master\framework\web\CController.php:881
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(785): CController->renderPartial('customer', NULL, true)
+#1 C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php(32): CController->render('customer')
+#2 C:\xampp\htdocs\yii\yii-master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\TestCallistech\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/testcallistech/
+---
+2019/01/04 04:26:22 [error] [php] Undefined variable: model (C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\TestCallistech\index.php(13): CWebApplication->run()
+REQUEST_URI=/testcallistech/
+in C:\xampp\htdocs\TestCallistech\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\TestCallistech\index.php (13)
+2019/01/04 05:29:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\yii-master\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\yii-master\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\yii-master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\yii-master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\yii-master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\yii-master\framework\web\CWebApplication.php(141): CWebApplication->runController('customer/view')
+#10 C:\xampp\htdocs\yii\yii-master\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\TestCallistech\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/testcallistech/index.php?r=customer/view&customer_no=
+HTTP_REFERER=http://localhost/testcallistech/index.php?r=customer/create
+---
